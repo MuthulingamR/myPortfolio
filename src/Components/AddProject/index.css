@@ -1,0 +1,126 @@
+.add-project-container{
+    height: 100vh;
+    margin: 15px;
+    border-bottom: #FDC435 solid 2px;
+}
+
+.add-project-inner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.add-project-heading{
+    color: var(--font-high-emphasis, #25282B);
+    text-align: center;
+    /* title / h2 */
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 150% */
+    margin: 0px;
+}
+
+hr{
+    width: 100px;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--brand-yellow, #FDC435);
+    margin-bottom: 65px;
+}
+
+.add-project-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+}
+
+label{
+    color: var(--font-high, #25282B);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-self: flex-start;
+    margin-bottom: 15px;
+    padding-left: 0px;
+}
+
+.project-input{
+    border-radius: 8px;
+    border: 1px solid #E8ECF4;
+    background: var(--bg-white, #FFF);
+    width: 100%;
+    margin-bottom: 24px;
+    height: 20px;
+    padding: 5px 10px;
+}
+
+.add-btn{
+    border-radius: 8px;
+    background: var(--brand-yellow, #FDC435);
+    padding: 5px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+textarea{
+    border-radius: 8px;
+    border: 1px solid #E8ECF4;
+    background: var(--bg-white, #FFF);
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 5px 10px;
+}
+
+.projects-container{
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.add-inner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.add-projects-ul-container{
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+@media screen and (max-width: 768px){
+
+    .add-project-form-container{
+        width: 90%;
+    }
+
+    .add-project-container{
+        height: 100%;
+    }
+
+    .add-project-heading{
+        font-size: 38px;
+    }
+
+    .add-projects-ul-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+}
